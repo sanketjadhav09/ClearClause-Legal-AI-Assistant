@@ -108,8 +108,8 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/sanketjadhav09/ClearClause-Legal-AI.git
-    cd ClearClause-Legal-AI
+    git clone https://github.com/sanketjadhav09/ClearClause-Legal-AI-Assistant.git
+    cd ClearClause-Legal-AI-Assistant
     ```
 
 2.  **Create and Activate a Virtual Environment**
