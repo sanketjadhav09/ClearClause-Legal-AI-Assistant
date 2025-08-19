@@ -1,0 +1,11 @@
+streamlit
+google-generativeai
+python-dotenv
+langchain-google-genai
+langchain
+langchain-community
+pypdf
+python-docx
+faiss-cpu
+PyMuPDF
+tiktoken
