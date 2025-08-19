@@ -171,6 +171,17 @@ This project is open-source and available under the terms of the [MIT License](L
 
 ---
 
+## 🙏 Acknowledgements
+
+I would like to express my gratitude to the following:
+
+- **Sumago Infotech Pvt. Ltd.** – For guidance and support in AI, ML, and Data Science.  
+- **Streamlit** – For providing the framework to build this interactive application.  
+- **LangChain & Google Gemini API** – For powering the AI capabilities of this project.  
+- **Open-source libraries** – For making development easier.
+
+---
+
 ## 👨‍💻 Author
 
 ### **Sanket Kishor Jadhav**
