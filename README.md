@@ -1,4 +1,4 @@
-# ⚖️ ClearClause — Legal AI Assistant
+# ⚖️ ClearClause — A Legal AI Assistant
 ### 🤖 *A Legal AI Chatbot powered by Gemini API*
 
 ---
@@ -150,6 +150,8 @@ streamlit run app.py
 
 Navigate to `http://localhost:8501` in your web browser to interact with the ClearClause Legal AI Assistant.
 
+---
+
 ## 🌐 Deployment
 
 This application is designed for and deployed on **Streamlit Community Cloud**. The deployment process is automated via GitHub:
@@ -159,7 +161,7 @@ This application is designed for and deployed on **Streamlit Community Cloud**. 
 3.  The API key is securely stored in the Streamlit Cloud application's **Secrets management**.
 4.  Any push to the `main` branch on GitHub automatically triggers a redeployment of the application.
 
-**Live App URL:** [**https://clearclause-ai.streamlit.app/**](https://clearclause-legal-ai.streamlit.app/)
+**Live App URL:** [**https://clearclause-legal-ai-assistant.streamlit.app/**](https://clearclause-legal-ai-assistant.streamlit.app/)
 
 ---
 
