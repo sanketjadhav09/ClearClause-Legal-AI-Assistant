@@ -4,6 +4,7 @@ python-dotenv
 langchain-google-genai
 langchain
 langchain-community
+langchain-text-splitters
 pypdf
 python-docx
 faiss-cpu
