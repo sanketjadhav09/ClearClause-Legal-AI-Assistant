@@ -6,7 +6,7 @@ import google.genai as genai
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain_community.vectorstores import FAISS
-from langchain.chains import load_qa_chain
+from langchain.chains.question_answering import load_qa_chain
 from langchain.chains.summarize import load_summarize_chain
 from langchain.prompts import PromptTemplate
 from docx import Document
