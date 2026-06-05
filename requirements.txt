@@ -1,10 +1,12 @@
 streamlit
+google-generativeai
 python-dotenv
-google-genai
-langchain
-langchain-community
 langchain-google-genai
+langchain==0.3.27
+langchain-community==0.3.27
 langchain-text-splitters
-faiss-cpu
-pymupdf
+pypdf
 python-docx
+faiss-cpu
+PyMuPDF
+tiktoken
