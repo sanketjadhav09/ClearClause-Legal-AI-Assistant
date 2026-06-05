@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import time
 from dotenv import load_dotenv
-import google.genai as genai
+import google.generativeai as genai
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain_community.vectorstores import FAISS
