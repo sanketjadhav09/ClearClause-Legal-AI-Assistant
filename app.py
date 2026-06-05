@@ -83,7 +83,7 @@ def get_vector_store(text_chunks):
         st.error("Could not extract text from documents. Please check the files.")
         return
     try:
-        embeddings = GoogleGenerativeAIEmbeddings(model="text-embedding-004", google_api_key=api_key)
+        embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004", google_api_key=api_key)
         vector_store = FAISS.from_texts(text_chunks, embedding=embeddings)
         st.session_state.vector_store = vector_store
         st.session_state.raw_text = "\n".join(text_chunks)
