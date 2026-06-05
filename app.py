@@ -36,7 +36,7 @@ def safe_extract_text(response):
 
 # --- Helper: Robust Gemini call ---
 def robust_generate(prompt, retries=2):
-    models_to_try = ["gemini-2.5-flash", "gemini-1.5-flash"]
+    models_to_try = ["gemini-2.5-flash"]
     for model_name in models_to_try:
         model = genai.GenerativeModel(model_name)
         for attempt in range(retries + 1):
@@ -83,7 +83,7 @@ def get_vector_store(text_chunks):
         st.error("Could not extract text from documents. Please check the files.")
         return
     try:
-        embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=api_key)
+        embeddings = GoogleGenerativeAIEmbeddings(model="text-embedding-004", google_api_key=api_key)
         vector_store = FAISS.from_texts(text_chunks, embedding=embeddings)
         st.session_state.vector_store = vector_store
         st.session_state.raw_text = "\n".join(text_chunks)
