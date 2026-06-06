@@ -161,7 +161,7 @@ This application is designed for and deployed on **Streamlit Community Cloud**. 
 3.  The API key is securely stored in the Streamlit Cloud application's **Secrets management**.
 4.  Any push to the `main` branch on GitHub automatically triggers a redeployment of the application.
 
-**Live App URL:** [**https://clearclause-legal-ai-assistant.streamlit.app/**](https://clearclause-legal-ai-assistant.streamlit.app/)
+**Live App URL:** [**https://clearclause-ai.streamlit.app/**](https://clearclause-ai.streamlit.app/)
 
 ---
 
